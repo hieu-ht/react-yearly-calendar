@@ -1,10 +1,10 @@
 {
-  "name": "react-yearly-calendar",
-  "version": "1.2.1",
-  "description": "A yearly calendar built in React.js",
+  "name": "react-yearly-calendar-hieuht",
+  "version": "0.1.0",
+  "description": "A yearly calendar built in React.js, custom to display 2 chars at weekday",
   "repository": {
     "type": "git",
-    "url": "git@github.com:BelkaLab/react-yearly-calendar"
+    "url": "git@github.com:HieuDevX/react-yearly-calendar"
   },
   "main": "./lib/index.js",
   "scripts": {
@@ -15,15 +15,8 @@
     "lint": "eslint --config .eslintrc src/",
     "lint:fix": "eslint --fix --config .eslintrc src/"
   },
-  "keywords": [
-    "react",
-    "react.js",
-    "calendar",
-    "year",
-    "yearly",
-    "react-component"
-  ],
-  "author": "Belka <giovanni@belka.us> (http://belka.us)",
+  "keywords": ["react", "react.js", "calendar", "year", "yearly", "react-component"],
+  "author": "Belka <giovanni@belka.us> (http://belka.us) custom by HieuHT (hoangtrunghieu10licbn@gmail.com)",
   "license": "MIT",
   "dependencies": {
     "moment": "^2.13.0",

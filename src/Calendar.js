@@ -98,8 +98,8 @@ class Calendar extends Component {
     range(firstDayOfWeek, totalDays + firstDayOfWeek).forEach(i => {
       const day = moment()
         .weekday(i)
-        .format('dd')
-        .charAt(0);
+        .format('dd');
+      // .charAt(0);
 
       if (showWeekSeparators) {
         if (i % 7 === firstDayOfWeek && days.length) {
