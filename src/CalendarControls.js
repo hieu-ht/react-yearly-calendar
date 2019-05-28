@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import moment from 'moment';
 
 const propTypes = {
   year: PropTypes.number.isRequired,
@@ -22,7 +23,7 @@ const CalendarControls = props => {
   if (showTodayButton) {
     todayButton = (
       <div className="control today" onClick={() => goToToday()}>
-        Today
+        {`${moment.locale() === 'vi' ? 'Hôm nay' : Today}`}
       </div>
     );
   }
