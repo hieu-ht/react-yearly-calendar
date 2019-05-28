@@ -23,7 +23,7 @@ const CalendarControls = props => {
   if (showTodayButton) {
     todayButton = (
       <div className="control today" onClick={() => goToToday()}>
-        {`${moment.locale() === 'vi' ? 'Hôm nay' : Today}`}
+        {`${moment.locale() === 'vi' ? 'Hôm nay' : 'Today'}`}
       </div>
     );
   }
