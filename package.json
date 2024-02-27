@@ -15,14 +15,23 @@
     "lint": "eslint --config .eslintrc src/",
     "lint:fix": "eslint --fix --config .eslintrc src/"
   },
-  "keywords": ["react", "react.js", "calendar", "year", "yearly", "react-component"],
+  "keywords": [
+    "react",
+    "react.js",
+    "calendar",
+    "year",
+    "yearly",
+    "react-component"
+  ],
   "author": "Belka <giovanni@belka.us> (http://belka.us) custom by HieuHT (hoangtrunghieu10licbn@gmail.com)",
   "license": "MIT",
   "dependencies": {
     "moment": "^2.13.0",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
-    "react-moment-proptypes": "^1.5.0"
+    "react-moment-proptypes": "^1.5.0",
+    "tea-math": "^1.1.1",
+    "tea-sum": "^1.1.2"
   },
   "devDependencies": {
     "babel-cli": "^6.1.2",
