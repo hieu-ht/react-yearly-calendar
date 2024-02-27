@@ -1,10 +1,10 @@
 {
   "name": "react-yearly-calendar-hieuht",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A yearly calendar built in React.js, custom to display 2 chars at weekday",
   "repository": {
     "type": "git",
-    "url": "git@github.com:HieuDevX/react-yearly-calendar"
+    "url": "git@github.com:hieu-ht/react-yearly-calendar"
   },
   "main": "./lib/index.js",
   "scripts": {
